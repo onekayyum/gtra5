@@ -1,0 +1,238 @@
+---
+name: Vice Horizon
+colors:
+  surface: '#131318'
+  surface-dim: '#131318'
+  surface-bright: '#39383e'
+  surface-container-lowest: '#0e0e13'
+  surface-container-low: '#1b1b20'
+  surface-container: '#1f1f25'
+  surface-container-high: '#2a292f'
+  surface-container-highest: '#35343a'
+  on-surface: '#e4e1e9'
+  on-surface-variant: '#e1bdc6'
+  inverse-surface: '#e4e1e9'
+  inverse-on-surface: '#303036'
+  outline: '#a88891'
+  outline-variant: '#594047'
+  surface-tint: '#ffb1c8'
+  primary: '#ffb1c8'
+  on-primary: '#650033'
+  primary-container: '#ff4896'
+  on-primary-container: '#58002c'
+  inverse-primary: '#b90063'
+  secondary: '#ffb690'
+  on-secondary: '#552100'
+  secondary-container: '#ec6a06'
+  on-secondary-container: '#4a1c00'
+  tertiary: '#4cd7f6'
+  on-tertiary: '#003640'
+  tertiary-container: '#009eb9'
+  on-tertiary-container: '#002f38'
+  error: '#ffb4ab'
+  on-error: '#690005'
+  error-container: '#93000a'
+  on-error-container: '#ffdad6'
+  primary-fixed: '#ffd9e2'
+  primary-fixed-dim: '#ffb1c8'
+  on-primary-fixed: '#3e001d'
+  on-primary-fixed-variant: '#8e004a'
+  secondary-fixed: '#ffdbca'
+  secondary-fixed-dim: '#ffb690'
+  on-secondary-fixed: '#341100'
+  on-secondary-fixed-variant: '#783200'
+  tertiary-fixed: '#acedff'
+  tertiary-fixed-dim: '#4cd7f6'
+  on-tertiary-fixed: '#001f26'
+  on-tertiary-fixed-variant: '#004e5c'
+  background: '#131318'
+  on-background: '#e4e1e9'
+  surface-variant: '#35343a'
+typography:
+  display-hero:
+    fontFamily: Barlow Condensed
+    fontSize: 84px
+    fontWeight: '800'
+    lineHeight: 84px
+    letterSpacing: 0.02em
+  display-hero-mobile:
+    fontFamily: Barlow Condensed
+    fontSize: 48px
+    fontWeight: '800'
+    lineHeight: 50px
+    letterSpacing: 0.02em
+  headline-xl:
+    fontFamily: Barlow Condensed
+    fontSize: 48px
+    fontWeight: '700'
+    lineHeight: 52px
+    letterSpacing: 0.03em
+  headline-xl-mobile:
+    fontFamily: Barlow Condensed
+    fontSize: 32px
+    fontWeight: '700'
+    lineHeight: 36px
+    letterSpacing: 0.03em
+  headline-lg:
+    fontFamily: Barlow Condensed
+    fontSize: 36px
+    fontWeight: '700'
+    lineHeight: 40px
+    letterSpacing: 0.03em
+  headline-lg-mobile:
+    fontFamily: Barlow Condensed
+    fontSize: 26px
+    fontWeight: '700'
+    lineHeight: 30px
+    letterSpacing: 0.03em
+  headline-md:
+    fontFamily: Barlow Condensed
+    fontSize: 24px
+    fontWeight: '600'
+    lineHeight: 28px
+    letterSpacing: 0.04em
+  headline-sm:
+    fontFamily: Barlow Condensed
+    fontSize: 20px
+    fontWeight: '600'
+    lineHeight: 24px
+    letterSpacing: 0.04em
+  body-lg:
+    fontFamily: Chivo
+    fontSize: 18px
+    fontWeight: '400'
+    lineHeight: 28px
+  body-md:
+    fontFamily: Chivo
+    fontSize: 15px
+    fontWeight: '400'
+    lineHeight: 24px
+  body-sm:
+    fontFamily: Chivo
+    fontSize: 13px
+    fontWeight: '400'
+    lineHeight: 20px
+  label-caps:
+    fontFamily: Barlow Condensed
+    fontSize: 14px
+    fontWeight: '700'
+    lineHeight: 16px
+    letterSpacing: 0.12em
+  telemetry-data:
+    fontFamily: JetBrains Mono
+    fontSize: 12px
+    fontWeight: '500'
+    lineHeight: 16px
+    letterSpacing: 0.05em
+rounded:
+  sm: 0.125rem
+  DEFAULT: 0.25rem
+  md: 0.375rem
+  lg: 0.5rem
+  xl: 0.75rem
+  full: 9999px
+spacing:
+  gutter: 1.5rem
+  gutter-mobile: 1rem
+  margin: 3rem
+  margin-mobile: 1.25rem
+  space-xs: 0.25rem
+  space-sm: 0.5rem
+  space-md: 1rem
+  space-lg: 1.5rem
+  space-xl: 2.5rem
+  space-2xl: 4rem
+---
+
+## Brand & Style
+
+This design system defines the visual and interaction standard for the Grand Theft Auto VI official portal and cloud streaming platform. It balances intense cinematic adrenaline with ultra-responsive, technical utility required for direct low-latency gaming.
+
+### Aesthetic Direction
+- **Cinematic Noir Meets Vice City Neon:** The interface emerges from a deeply atmospheric obsidian canvas, punctuated by hot sunset gradients, radiant magenta outlines, and electric cyan telemetry signals. 
+- **Glassmorphism & Tactical HUD:** Panels utilize heavy backdrop blurs, subtle high-index frosted glass, and hair-thin gradient borders that evoke both coastal luxury and high-tech telemetry.
+- **Tone & Mood:** Dangerous, glamorous, urgent, and hyper-premium. The interface recedes into absolute darkness to frame 4K cinematic streaming media and game art while providing immediate tactical clarity for cloud launch actions.
+
+### Strict Nomenclature Guidelines
+- Approved titles are strictly limited to **Grand Theft Auto VI** or **GTA 6**. No informal abbreviations, colloquialisms, or unofficial tags are permitted in interface labels or telemetry strings.
+
+## Colors
+
+The palette directly reflects the heat, dusk, and underworld glamour of Vice City.
+
+### Color Tokens & Roles
+- **Primary (`#e0247d`):** Electric Vice Magenta. Used for key interactive triggers, active tab indicators, neon outer glows, and critical game status accents.
+- **Secondary (`#f97316`):** Sunset Tangerine. Blended directly with magenta to produce the signature sunset gradient (`linear-gradient(135deg, #f97316 0%, #e0247d 50%, #7928ca 100%)`). Applied to primary "PLAY NOW" call-to-actions, VIP status pills, and special edition highlights.
+- **Tertiary (`#06b6d4`):** Electric Ocean Cyan. Used for high-octane gaming telemetry: ping readouts, server latency badges, cloud bitrates, and verified co-op squad notifications.
+- **Neutral Canvas (`#0a0a0f`):** Obsidian Black. True-depth dark background optimizing contrast ratio for OLED displays and cinematic artwork.
+- **Surface Elevation Cards (`#12121a`):** Deep Slate. Baseline background for cards, flyout drawers, floating navigation docks, and dialog modals.
+- **Crisp Accents (`#ffffff`):** Pure optical white reserved for high-contrast titles, primary icons, and active input text. Muted typography defaults to `#94a3b8` and `#64748b`.
+
+### Gradient Implementations
+- **Vice Sunset Glow:** `linear-gradient(90deg, #f97316, #ec4899, #e0247d)`
+- **Glass Rim Highlight:** `linear-gradient(135deg, rgba(255, 255, 255, 0.15) 0%, rgba(224, 36, 125, 0.2) 50%, rgba(6, 182, 212, 0.05) 100%)`
+
+## Typography
+
+The typographic hierarchy pairs the high-velocity, condensed punch of classic arcade and sports telemetry with modern readability.
+
+- **Headlines & Action Hero Display (`Barlow Condensed`):** Rendered in uppercase with slight tracking to evoke high-speed sports broadcasting and cinematic film credits.
+- **Narrative & System Interface (`Chivo`):** Modern, sharp, and razor-precise. It provides exceptional legibility against dark translucent glass plates.
+- **Telemetry & Technical HUD (`JetBrains Mono`):** Dedicated to technical readouts, cloud server regions, latency graphs, FPS counters, and session IDs.
+
+## Layout & Spacing
+
+The structural layout utilizes a high-density, media-first 12-column grid designed for 4K TVs, ultrawide gaming monitors, and handheld/mobile interfaces.
+
+### Grid & Breakpoints
+- **Desktop (1280px+):** 12-column layout with `3rem` canvas margins and `1.5rem` gutters. Content containers span a maximum width of `1600px` for ultra-dense multimedia immersion.
+- **Tablet (768px - 1279px):** 8-column layout with `2rem` margins and `1.25rem` gutters. HUD docks collapse into bottom navigation modules.
+- **Mobile (320px - 767px):** 4-column layout with `1.25rem` margins and `1rem` gutters. Media cards stack vertically or switch to horizontal touch carousels.
+
+### Layout Principles
+- **Overlapping Viewports:** Key character assets and vehicle cutouts should break out of their layout containers, resting in elevated visual layers above section dividers.
+- **Docked Cloud HUD:** Floating bottom and side controls float consistently `1.5rem` above the canvas floor, anchored through fixed glass viewports.
+
+## Elevation & Depth
+
+Visual hierarchy does not rely on traditional drop shadows. Instead, it employs atmospheric glass depth, neon photoluminescence, and high-frequency edge strokes.
+
+### Elevation Levels
+
+- **Base Layer (Elevation 0):** Pure `#0a0a0f` deep obsidian tone. May feature high-contrast background wallpaper, film grain, or muted ambient radial glows.
+- **HUD Plates & Rail (Elevation 1):** Background `#12121a` at 85% opacity with `backdrop-filter: blur(16px)`. Border is a 1px solid stroke with `rgba(255, 255, 255, 0.08)`.
+- **Raised Focus Cards (Elevation 2):** `#181824` with `backdrop-filter: blur(24px)`. Border uses top/left gradient stroke (`rgba(224, 36, 125, 0.35)` blending into `rgba(255, 255, 255, 0.05)`).
+- **Active Interactive Elements (Elevation 3):** Highlighted with dual-state radial photoluminescence:
+  - *Magenta Bloom:* `box-shadow: 0 0 25px -4px rgba(224, 36, 125, 0.5), 0 0 10px -2px rgba(249, 115, 22, 0.3)`
+  - *Cyan Telemetry Glow:* `box-shadow: 0 0 20px -3px rgba(6, 182, 212, 0.6)`
+- **Modals & Video Drawers (Elevation 4):** Deep slate `#0e0e17` backed by an 80% opacity dark vignette backdrop blur (`backdrop-filter: blur(32px)`).
+
+## Shapes
+
+The design system incorporates a razor-sharp, precision-cut industrial aesthetic. Large radius curves conflict with aggressive gaming typography; therefore, geometry remains controlled, architectural, and compact.
+
+- **Base Corners (`0.25rem` / `4px`):** Standard for buttons, input fields, badge pills, and system sliders.
+- **Container Surfaces (`0.5rem` / `8px`):** Used for game cards, media containers, and modal dialogs.
+- **Chamfered Cuts:** Specific primary actions and HUD telemetry panels allow for a diagonal `6px` clip-path cut on top-right and bottom-left corners to amplify high-tech styling.
+
+## Components
+
+### Buttons
+- **Primary ("Launch Direct Play"):** Sunset gradient fill (`#f97316` to `#e0247d`). Typography is `Barlow Condensed` Bold, all caps with `0.1em` letter spacing. Features a continuous, slow ambient glow (`box-shadow: 0 0 24px rgba(224, 36, 125, 0.4)`). On hover, brightness escalates to 110% with a `scale(1.02)` transform.
+- **Secondary ("Trailer / Details"):** Translucent obsidian slate (`rgba(18, 18, 26, 0.8)`), 1px solid stroke in `rgba(255, 255, 255, 0.15)`. On hover, the border turns electric cyan (`#06b6d4`) with a matching subtle inner glow.
+- **Tertiary ("System / Settings"):** Borderless, muted white typography (`#94a3b8`) transitioning to pure white with a bottom 2px magenta indicator upon focus.
+
+### Chips & Badges
+- **Platform Telemetry Badges:** Background `rgba(6, 182, 212, 0.1)` with 1px border in `#06b6d4`. Typography is `JetBrains Mono` 11px uppercase in cyan (`4K 60FPS`, `HDR10`, `CLOUD ACTIVE`).
+- **Vice City Status Badges:** Sunset gradient outline with a dark obsidian core. Pill-shaped or chamfered, containing an animated pulsing dot indicator.
+
+### Cards (Media & Character Selectors)
+- **Cinematic Feature Card:** 16:9 or 21:9 aspect ratio with an edge-to-edge high-resolution character image. Overlaid with an internal bottom-to-top obsidian vignette gradient (`rgba(10, 10, 15, 0)` to `#0a0a0f`). Bottom area holds `Barlow Condensed` titles and quick-action overlay triggers.
+- **Hover State:** Card scales smoothly (`1.015`), border transitions from muted slate to an electric magenta glow, and video teaser plays automatically.
+
+### Input Fields & Controls
+- **Search & Filter Bars:** Slender height (44px) filled with dark slate (`#12121a`), bounded by a 1px border of `rgba(255, 255, 255, 0.1)`. Focus state produces an instant `#06b6d4` cyan rim light.
+- **Sliders & Toggles:** Toggles utilize obsidian tracks with sunset gradient pills that emit a magenta bloom when engaged.
+
+### Direct Play Cloud Telemetry HUD
+- A dedicated micro-dock displaying real-time stream stability: ping indicator colored conditionally (Cyan `< 20ms`, Orange `20-50ms`, Magenta `> 50ms`), audio bitrate, and cloud datacenter region tag.

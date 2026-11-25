@@ -1,0 +1,6 @@
+{
+  "name": "Vice Horizon — Grand Theft Auto VI",
+  "description": "Online browser cloud streaming portal and direct player interface for Grand Theft Auto VI (GTA 6).",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
